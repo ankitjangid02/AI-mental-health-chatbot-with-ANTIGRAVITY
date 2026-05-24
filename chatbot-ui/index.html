@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euron - Mental Wellness Guide</title>
+    <!-- Google Fonts for clean serif/sans typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Top Navigation -->
+        <header class="app-header">
+            <div class="brand">
+                <span class="logo-icon">🌿</span>
+                <h1>Euron</h1>
+            </div>
+            <div class="status-indicator">
+                <span class="status-dot online"></span>
+                <span id="status-text">Connected</span>
+            </div>
+        </header>
+
+        <!-- Main centered card panel -->
+        <main class="portal-main">
+            <!-- Header greeting -->
+            <div class="welcome-banner">
+                <h2>Find your quiet space.</h2>
+                <p>An AI-powered wellness portal for stress management guidance, mental exercises, and support guides.</p>
+            </div>
+
+            <!-- Portal Card -->
+            <div class="card card-container">
+                <!-- Mode Toggle Tabs -->
+                <div class="tabs">
+                    <button class="tab-btn active" id="mode-standard-btn">Wellness Guidance</button>
+                    <button class="tab-btn" id="mode-doc-btn">Stress Guide Library</button>
+                </div>
+
+                <!-- Input area -->
+                <div class="query-section">
+                    <h3 id="query-title">What would you like assistance with today?</h3>
+                    <p class="query-desc" id="query-desc">Describe your feelings or ask Euron for suggestions and mindful routines.</p>
+                    
+                    <form id="query-form">
+                        <div class="input-container">
+                            <textarea id="query-input" placeholder="e.g. I am feeling overwhelmed with work, what should I do?" rows="3" required></textarea>
+                        </div>
+                        
+                        <!-- Mood / Topic Quick Select Tags -->
+                        <div class="mood-selector">
+                            <span class="selector-label">Quick Topics:</span>
+                            <div class="mood-tags">
+                                <button type="button" class="mood-tag" data-query="What are some breathing exercises to calm down when feeling anxious?">Anxiety Exercises</button>
+                                <button type="button" class="mood-tag" data-query="How can I manage stress during exams or high pressure situations?">Exam Stress</button>
+                                <button type="button" class="mood-tag" data-query="Give me a healthy consistent sleep schedule and routine.">Sleep Routine</button>
+                                <button type="button" class="mood-tag" data-query="What time management habits help reduce daily stress?">Time Management</button>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" id="clear-btn" class="btn btn-secondary">Clear</button>
+                            <button type="submit" id="submit-btn" class="btn btn-primary">Request Guidance</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Loader -->
+                <div class="loading-state" id="loading-spinner">
+                    <div class="spinner"></div>
+                    <span>Euron is preparing guidance...</span>
+                </div>
+
+                <!-- Output Panel -->
+                <div class="output-panel" id="result-card">
+                    <div class="panel-header">
+                        <h4>Euron's Guidance</h4>
+                        <button type="button" id="reset-result-btn" class="reset-link">Reset</button>
+                    </div>
+                    <div class="panel-content" id="result-body">
+                        <p class="placeholder">Select a topic or type your query above, then submit to receive guidance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotlines & Resources in Grid -->
+            <div class="resources-grid">
+                <div class="card resources-card">
+                    <h4>💡 Mindful Disclaimer</h4>
+                    <p>Euron is an AI educational assistant. It does not provide clinical therapy or medical diagnostics. If you are experiencing a mental health crisis, please reach out to professional services.</p>
+                </div>
+                
+                <div class="card crisis-card">
+                    <h4>🚨 Support Helplines</h4>
+                    <div class="hotline-grid">
+                        <div class="hotline">
+                            <span class="region">India</span>
+                            <strong>9152987821</strong>
+                            <span class="name">iCall Line</span>
+                        </div>
+                        <div class="hotline">
+                            <span class="region">USA</span>
+                            <strong>988</strong>
+                            <span class="name">Suicide & Crisis</span>
+                        </div>
+                        <div class="hotline">
+                            <span class="region">UK</span>
+                            <strong>116 123</strong>
+                            <span class="name">Samaritans</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+timestamp,session_id,query,response,crisis_flag
+2026-05-24T21:36:33.640059,test_session,Hello,"Sorry, I encountered an error communicating with the chat server: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}",False
+2026-05-24T21:37:18.928008,test_session,Hello,"Welcome to our safe space. I'm Euron, and I'm here to listen and support you. It's completely okay to feel however you feel, and I'm here to offer a non-judgmental ear. If you're comfortable sharing, what's been on your mind lately? Is there something specific you'd like to talk about or something you're struggling with? I'm here to listen and help in any way I can.",False
+2026-05-24T21:37:27.750141,test_session,I feel hopeless and want to die,"💡 It sounds like you're going through a really tough time. You're not alone, and there are people who want to help you. Please consider reaching out to a mental health professional or contacting a helpline:
+
+**India:** 9152987821 (iCall), 1800-599-0019 (Vandrevala Foundation)
+**USA:** 988 (Suicide & Crisis Lifeline)
+**UK:** 116 123 (Samaritans)
+
+You matter. 💙",True
+2026-05-24T21:37:37.496161,test_session,I feel hopeless and want to die,"💡 It sounds like you're going through a really tough time. You're not alone, and there are people who want to help you. Please consider reaching out to a mental health professional or contacting a helpline:
+
+**India:** 9152987821 (iCall), 1800-599-0019 (Vandrevala Foundation)
+**USA:** 988 (Suicide & Crisis Lifeline)
+**UK:** 116 123 (Samaritans)
+
+You matter. 💙",True
+2026-05-24T21:38:17.996873,session_zvgchu8tz6j_1779638886997,hello,"It's wonderful to connect with you. I'm Euron, your AI companion, here to listen and support you through any challenges you may be facing. How are you feeling today? Is there something specific on your mind that you'd like to talk about or share, or perhaps you're just looking for a friendly ear to listen? I'm all ears and here to support you in any way I can.",False
+2026-05-24T21:38:44.414910,session_zvgchu8tz6j_1779638886997,i am having stress due to exams,"Exam stress can be overwhelming. It's normal to feel anxious and concerned about doing well. Remind yourself that you've prepared well and that you've got this. Try to take things one step at a time, and break down your study plan into manageable chunks. Make sure to take breaks, get enough sleep, and engage in activities that help you relax, such as exercise, meditation, or spending time with loved ones.
+
+You might also consider creating a calm study space, free from distractions, where you can focus on your studies without feeling overwhelmed. Take a few deep breaths, and try to reframe your thoughts in a more positive light. You've got this! What specific area of the exam are you feeling most stressed about?",False
+2026-05-24T21:45:30.329202,session_zvgchu8tz6j_1779638886997,i am unable to sleep,"It can be really frustrating when we're struggling to sleep. Sometimes, our minds can be racing with thoughts and worries, making it hard to wind down and relax. I'm here to help you feel more at ease.
+
+Try taking a few deep breaths, and allow yourself to let go of any tension in your body. Imagine yourself in a peaceful place, where you feel completely safe and relaxed. It could be a beach, a forest, or even a cozy room in your own home. Focus on the sights, sounds, and sensations around you, and allow yourself to settle into this calm state.
+
+If your mind starts to wander, gently bring your attention back to your breath or this peaceful place. Remember, it's okay if your mind is still active – we can work with that. Would you like some suggestions for relaxation techniques or calming activities to help you drift off to sleep tonight?",False
+2026-05-24T21:45:44.329230,session_zvgchu8tz6j_1779638886997,what is the capital of india,"That's a nice change of pace from our earlier conversation. The capital of India is New Delhi. However, it's worth noting that the country has a dual capital system, with New Delhi serving as the capital for the government and Jaipur serving as the capital for the state of Rajasthan.
+
+But don't worry, I'm not here to quiz you on your geography knowledge. If you're still having trouble sleeping, we can definitely work on some strategies to help you relax and drift off. Would you like some more suggestions or just someone to chat with for a bit?",False
+2026-05-24T22:26:26.801102,session_zvgchu8tz6j_1779638886997,suicide,"💡 It sounds like you're going through a really tough time. You're not alone, and there are people who want to help you. Please consider reaching out to a mental health professional or contacting a helpline:
+
+**India:** 9152987821 (iCall), 1800-599-0019 (Vandrevala Foundation)
+**USA:** 988 (Suicide & Crisis Lifeline)
+**UK:** 116 123 (Samaritans)
+
+You matter. 💙",True
+2026-05-24T22:29:48.773057,session_zvgchu8tz6j_1779638886997,my mind is kept running and i am unable to sleep,"It sounds like your mind is racing and it's making it hard for you to wind down. This is a really common experience for many people, and it doesn't mean that there's anything wrong with you.
+
+One technique that might help is to try to acknowledge your thoughts without getting caught up in them. Imagine that your thoughts are like clouds passing by – they'll come and go, but they don't have to define your state of mind. You can also try to reframe any worries or concerns as ""tomorrow's problems"" – focus on getting a good night's sleep and deal with them in the morning.
+
+Remember, it's okay if your mind is still active – it's not something to be feared or avoided. Would you like some more suggestions or just someone to talk to for a bit? Sometimes, sharing your thoughts and feelings with someone who's listening can help you feel more calm and centered.",False
+2026-05-24T22:32:02.148163,session_zvgchu8tz6j_1779638886997,"i am unabale to sleep, i am kept imagining some scenarios in my head and unable to sleep and cant stop it","It sounds like your mind is creating a lot of scenarios and you're getting caught up in them, making it hard to fall asleep. This can be really frustrating and feel like it's taking over your thoughts.
+
+Here's a gentle suggestion: try to imagine a ""stop"" button for these scenarios. When you catch yourself getting caught up in one of these imaginary stories, imagine clicking that button and stopping the scenario right in its tracks. Then, gently refocus on your breath or the sensation of your body resting in bed.
+
+It might also help to remind yourself that these scenarios aren't ""real"" – they're just your mind's way of trying to process and make sense of things. Try to be kind to yourself and acknowledge that it's okay to have these thoughts, but also remind yourself that you can choose to let them go when they're not serving you.
+
+If these thoughts are feeling overwhelming or really distressing, it might be helpful to talk to a mental health professional who can support you in working through them. But for now, just remember that you're safe, and it's okay to take a break from your thoughts. Can I stay with you for a bit and help you feel more calm?",False
+2026-05-24T22:38:19.659398,session_zvgchu8tz6j_1779638886997,suicide,"💡 It sounds like you're going through a really tough time. You're not alone, and there are people who want to help you. Please consider reaching out to a mental health professional or contacting a helpline:
+
+**India:** 9152987821 (iCall), 1800-599-0019 (Vandrevala Foundation)
+**USA:** 988 (Suicide & Crisis Lifeline)
+**UK:** 116 123 (Samaritans)
+
+You matter. 💙",True
