@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+chat_log.csv
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+
+# Local database files
+*.sqlite3
+
+# Node modules (if frontend uses npm later)
+node_modules/
+
+# Temporary files
+temp/
+tmp/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# AI model files
+*.bin
+*.pt
+*.pth
+
+# Uvicorn
+uvicorn.log
