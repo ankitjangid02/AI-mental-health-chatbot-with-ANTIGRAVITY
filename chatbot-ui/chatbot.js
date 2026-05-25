@@ -1,5 +1,5 @@
 // Configuration
-const API_BASE_URL = "https://euron-backend.onrender.com/";
+const API_BASE_URL = window.location.protocol === 'file:' ? 'http://127.0.0.1:8000' : window.location.origin;
 
 // App State
 let currentMode = 'standard'; // 'standard' or 'doc'

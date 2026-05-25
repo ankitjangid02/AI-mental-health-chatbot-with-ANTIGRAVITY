@@ -1,27 +1,17 @@
-# Backend Framework
+# Core libraries
+langchain
+llama-index
+haystack
+
+# For a backend server(optional but recommended)
 fastapi
 uvicorn
 
-# Environment Variables
+# Additional tools
+requests
 python-dotenv
 
-# HTTP Requests
-requests
-
-# LangChain
-langchain
-langchain-community
-langchain-core
-
-# Groq
-groq
-
-# LlamaIndex
-llama-index
-
-# Optional HuggingFace Embeddings
-sentence-transformers
-llama-index-embeddings-huggingface
-
-# Pydantic
-pydantic
+# Optional AI agent frameworks
+# (Install if you plan to use them; some may not be on PyPI or may require extra steps)
+autogpt
+babyagi
